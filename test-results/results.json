@@ -99,7 +99,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 9092,
+                      "duration": 8907,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම \u001b[7mගෙදර යනවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම \u001b[7mඟෙඪRඅ YඅණVඅ\u001b[27m\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම \u001b[7mගෙදර යනවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම \u001b[7mඟෙඪRඅ YඅණVඅ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -157,7 +157,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:15.508Z",
+                      "startTime": "2026-01-30T16:57:54.211Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -202,7 +202,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 9139,
+                      "duration": 9004,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යනවා\u001b[7mඅ\u001b[27m\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යනවා\u001b[7mඅ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -260,7 +260,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:15.502Z",
+                      "startTime": "2026-01-30T16:57:54.134Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -305,7 +305,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "failed",
-                      "duration": 9092,
+                      "duration": 9124,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.\u001b[7msliit.lk\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.\u001b[7mස්ලීට්.ල්ක්\u001b[27m\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.\u001b[7msliit.lk\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.\u001b[7mස්ලීට්.ල්ක්\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -363,7 +363,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:15.582Z",
+                      "startTime": "2026-01-30T16:57:54.115Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -408,7 +408,7 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 9125,
+                      "duration": 8677,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"ම\u001b[7m්\u001b[27mම ගෙදර යනව\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"ම\u001b[7m්\u001b[27mම ගෙදර යනව\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -466,7 +466,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:15.509Z",
+                      "startTime": "2026-01-30T16:57:54.183Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -509,9 +509,9 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 7651,
+                      "duration": 7439,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -569,7 +569,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:28.508Z",
+                      "startTime": "2026-01-30T16:58:07.091Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -611,10 +611,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 5,
-                      "parallelIndex": 3,
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 3027,
+                      "duration": 2661,
                       "error": {
                         "message": "Error: locator.fill: value: expected string, got object",
                         "stack": "Error: locator.fill: value: expected string, got object\n    at TranslatorPage.typeInput (C:\\Users\\ASUS\\Desktop\\IT23243026\\pages\\translator.page.ts:90:38)\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:88:7",
@@ -638,7 +638,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:28.415Z",
+                      "startTime": "2026-01-30T16:58:07.201Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -680,10 +680,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 7768,
+                      "duration": 7669,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට \u001b[7mid\u001b[27m එක අමතක වෙලා\"\u001b[39m\nReceived: \u001b[31m\"මට \u001b[7mඉඩ්\u001b[27m එක අමතක වෙලා\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට \u001b[7mid\u001b[27m එක අමතක වෙලා\"\u001b[39m\nReceived: \u001b[31m\"මට \u001b[7mඉඩ්\u001b[27m එක අමතක වෙලා\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -741,7 +741,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:28.416Z",
+                      "startTime": "2026-01-30T16:58:07.248Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -784,9 +784,9 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "failed",
-                      "duration": 7709,
+                      "duration": 7234,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅයියා\u001b[27m අපි ගෙදර යමු\u001b[7mද\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mඓය\u001b[27m අපි ගෙදර යමු\u001b[7mඩ\u001b[27m\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅයියා\u001b[27m අපි ගෙදර යමු\u001b[7mද\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mඓය\u001b[27m අපි ගෙදර යමු\u001b[7mඩ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -844,7 +844,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:28.612Z",
+                      "startTime": "2026-01-30T16:58:07.726Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -887,9 +887,9 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 8143,
+                      "duration": 7169,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි \u001b[7mදෙන්නා\u001b[27m ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි \u001b[7m2 ඩෙනෙක්\u001b[27m ගෙදර යනවා\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි \u001b[7mදෙන්නා\u001b[27m ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි \u001b[7m2 ඩෙනෙක්\u001b[27m ගෙදර යනවා\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -947,7 +947,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:34.095Z",
+                      "startTime": "2026-01-30T16:58:12.282Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -990,9 +990,9 @@
                   "results": [
                     {
                       "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 7664,
+                      "duration": 7803,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
@@ -1050,7 +1050,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:39.740Z",
+                      "startTime": "2026-01-30T16:58:18.203Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1112,7 +1112,7 @@
                       "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7566,
+                      "duration": 7120,
                       "errors": [],
                       "stdout": [
                         {
@@ -1139,7 +1139,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:39.665Z",
+                      "startTime": "2026-01-30T16:58:18.602Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1166,9 +1166,9 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7146,
+                      "duration": 7132,
                       "errors": [],
                       "stdout": [
                         {
@@ -1195,7 +1195,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:40.026Z",
+                      "startTime": "2026-01-30T16:58:18.735Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1222,9 +1222,9 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6991,
+                      "duration": 7178,
                       "errors": [],
                       "stdout": [
                         {
@@ -1251,7 +1251,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:44.906Z",
+                      "startTime": "2026-01-30T16:58:22.535Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1277,10 +1277,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7193,
+                      "duration": 6963,
                       "errors": [],
                       "stdout": [
                         {
@@ -1307,7 +1307,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:47.471Z",
+                      "startTime": "2026-01-30T16:58:25.910Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1333,10 +1333,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7172,
+                      "duration": 7019,
                       "errors": [],
                       "stdout": [
                         {
@@ -1363,7 +1363,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:47.492Z",
+                      "startTime": "2026-01-30T16:58:26.174Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1390,9 +1390,9 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7064,
+                      "duration": 6997,
                       "errors": [],
                       "stdout": [
                         {
@@ -1419,7 +1419,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:50.352Z",
+                      "startTime": "2026-01-30T16:58:28.651Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1446,9 +1446,9 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6892,
+                      "duration": 7348,
                       "errors": [],
                       "stdout": [
                         {
@@ -1475,7 +1475,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:52.083Z",
+                      "startTime": "2026-01-30T16:58:29.912Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1504,7 +1504,7 @@
                       "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7163,
+                      "duration": 6874,
                       "errors": [],
                       "stdout": [
                         {
@@ -1531,7 +1531,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:54.707Z",
+                      "startTime": "2026-01-30T16:58:32.898Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1558,9 +1558,9 @@
                   "results": [
                     {
                       "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7154,
+                      "duration": 6835,
                       "errors": [],
                       "stdout": [
                         {
@@ -1587,7 +1587,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:54.711Z",
+                      "startTime": "2026-01-30T16:58:33.228Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1614,9 +1614,9 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7290,
+                      "duration": 6994,
                       "errors": [],
                       "stdout": [
                         {
@@ -1643,7 +1643,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:57.588Z",
+                      "startTime": "2026-01-30T16:58:35.825Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1670,9 +1670,9 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6915,
+                      "duration": 6840,
                       "errors": [],
                       "stdout": [
                         {
@@ -1699,7 +1699,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:35:59.008Z",
+                      "startTime": "2026-01-30T16:58:37.292Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1725,10 +1725,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6942,
+                      "duration": 6945,
                       "errors": [],
                       "stdout": [
                         {
@@ -1755,7 +1755,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:01.902Z",
+                      "startTime": "2026-01-30T16:58:39.802Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1781,10 +1781,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7058,
+                      "duration": 6857,
                       "errors": [],
                       "stdout": [
                         {
@@ -1811,7 +1811,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:01.913Z",
+                      "startTime": "2026-01-30T16:58:40.091Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1838,9 +1838,9 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 6894,
+                      "duration": 6885,
                       "errors": [],
                       "stdout": [
                         {
@@ -1867,7 +1867,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:04.907Z",
+                      "startTime": "2026-01-30T16:58:42.843Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1894,9 +1894,9 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6948,
+                      "duration": 7055,
                       "errors": [],
                       "stdout": [
                         {
@@ -1923,7 +1923,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:05.957Z",
+                      "startTime": "2026-01-30T16:58:44.186Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1949,10 +1949,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7339,
+                      "duration": 6915,
                       "errors": [],
                       "stdout": [
                         {
@@ -1979,7 +1979,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:08.874Z",
+                      "startTime": "2026-01-30T16:58:46.783Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2005,10 +2005,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7254,
+                      "duration": 6897,
                       "errors": [],
                       "stdout": [
                         {
@@ -2035,7 +2035,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:09.009Z",
+                      "startTime": "2026-01-30T16:58:46.974Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2062,9 +2062,9 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 6953,
+                      "duration": 9525,
                       "errors": [],
                       "stdout": [
                         {
@@ -2091,7 +2091,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:11.836Z",
+                      "startTime": "2026-01-30T16:58:49.758Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2118,9 +2118,9 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6914,
+                      "duration": 9252,
                       "errors": [],
                       "stdout": [
                         {
@@ -2147,7 +2147,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:12.936Z",
+                      "startTime": "2026-01-30T16:58:51.293Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2173,10 +2173,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7105,
+                      "duration": 9336,
                       "errors": [],
                       "stdout": [
                         {
@@ -2203,7 +2203,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:16.240Z",
+                      "startTime": "2026-01-30T16:58:53.728Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2229,10 +2229,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7039,
+                      "duration": 10487,
                       "errors": [],
                       "stdout": [
                         {
@@ -2259,7 +2259,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:16.301Z",
+                      "startTime": "2026-01-30T16:58:53.901Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2274,7 +2274,7 @@
             },
             {
               "title": "Pos_Fun_0022 - Verify transliteration for: \"mata   raeeta kanna bath   oonee\"",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2286,10 +2286,29 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 7055,
-                      "errors": [],
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 9626,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට   රෑට කන්න බත්   ඕනේ\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට   රෑට කන්න බත්   ඕනේ\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-positive-functional.spec.ts:100:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-positive-functional.spec.ts",
+                          "column": 30,
+                          "line": 100
+                        },
+                        "snippet": "\u001b[0m \u001b[90m  98 |\u001b[39m       \u001b[90m// Step 6: Compare actual output with expected output\u001b[39m\n \u001b[90m  99 |\u001b[39m       \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 100 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 101 |\u001b[39m         \n \u001b[90m 102 |\u001b[39m         \u001b[90m// Step 7: If outputs match, mark test as PASS\u001b[39m\n \u001b[90m 103 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m`Status: ✅ PASS`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-positive-functional.spec.ts",
+                            "column": 30,
+                            "line": 100
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට   රෑට කන්න බත්   ඕනේ\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n\n\u001b[0m \u001b[90m  98 |\u001b[39m       \u001b[90m// Step 6: Compare actual output with expected output\u001b[39m\n \u001b[90m  99 |\u001b[39m       \u001b[36mtry\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 100 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 101 |\u001b[39m         \n \u001b[90m 102 |\u001b[39m         \u001b[90m// Step 7: If outputs match, mark test as PASS\u001b[39m\n \u001b[90m 103 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m`Status: ✅ PASS`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-positive-functional.spec.ts:100:30\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n========================================\n"
@@ -2304,10 +2323,19 @@
                           "text": "Expected Output (Sinhala): මට   රෑට කන්න බත්   ඕනේ\n"
                         },
                         {
-                          "text": "Actual Output (Sinhala): මට   රෑට කන්න බත්   ඕනේ\n"
+                          "text": "Actual Output (Sinhala): \n"
                         },
                         {
-                          "text": "Status: ✅ PASS\n"
+                          "text": "Status: ❌ FAIL\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: මට   රෑට කන්න බත්   ඕනේ\n"
+                        },
+                        {
+                          "text": "  - Actual: \n"
                         },
                         {
                           "text": "========================================\n\n"
@@ -2315,12 +2343,28 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:18.820Z",
+                      "startTime": "2026-01-30T16:58:59.321Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-positive-functi-16d82-ta-raeeta-kanna-bath-oonee--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-positive-functi-16d82-ta-raeeta-kanna-bath-oonee--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-positive-functional.spec.ts",
+                        "column": 30,
+                        "line": 100
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "671d28fc5b5f9b4f933c-2cc7b6c4272bdfc2c7cd",
@@ -2342,9 +2386,9 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6888,
+                      "duration": 8846,
                       "errors": [],
                       "stdout": [
                         {
@@ -2371,7 +2415,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:19.873Z",
+                      "startTime": "2026-01-30T16:59:00.576Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2397,10 +2441,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 11,
-                      "parallelIndex": 1,
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6905,
+                      "duration": 8770,
                       "errors": [],
                       "stdout": [
                         {
@@ -2427,7 +2471,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:23.381Z",
+                      "startTime": "2026-01-30T16:59:03.096Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2470,10 +2514,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 10,
-                      "parallelIndex": 0,
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 8713,
+                      "duration": 10778,
                       "errors": [],
                       "stdout": [
                         {
@@ -2503,7 +2547,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T16:36:23.396Z",
+                      "startTime": "2026-01-30T16:59:04.428Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2523,11 +2567,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-30T16:35:12.758Z",
-    "duration": 79470.667,
-    "expected": 25,
+    "startTime": "2026-01-30T16:57:51.190Z",
+    "duration": 84159.59000000001,
+    "expected": 24,
     "skipped": 0,
-    "unexpected": 10,
+    "unexpected": 11,
     "flaky": 0
   }
 }

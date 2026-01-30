@@ -2,7 +2,6 @@
 # Created by IT23243026 for IT3040 ITPM Semester 1
 
 # Dependencies
-node_modules/
 package-lock.json
 
 # Test artifacts
