@@ -1,0 +1,2533 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ASUS\\Desktop\\IT23243026\\playwright.config.ts",
+    "rootDir": "C:/Users/ASUS/Desktop/IT23243026/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ASUS/Desktop/IT23243026/screenshots",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ASUS/Desktop/IT23243026/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "C:\\Users\\ASUS\\Desktop\\IT23243026\\custom-reporter.ts",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "IT23243026-negative-functional.spec.ts",
+      "file": "IT23243026-negative-functional.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Negative Functional Tests - Robustness Validation",
+          "file": "IT23243026-negative-functional.spec.ts",
+          "line": 62,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Neg_Fun_0001 - Test robustness for: \"MaMa GeDaRa YaNaVa\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9092,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම \u001b[7mගෙදර යනවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම \u001b[7mඟෙඪRඅ YඅණVඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම \u001b[7mගෙදර යනවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම \u001b[7mඟෙඪRඅ YඅණVඅ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම \u001b[7mගෙදර යනවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම \u001b[7mඟෙඪRඅ YඅණVඅ\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0001\n"
+                        },
+                        {
+                          "text": "Input (Problematic): MaMa GeDaRa YaNaVa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මම ඟෙඪRඅ YඅණVඅ\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "  - Actual: මම ඟෙඪRඅ YඅණVඅ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:15.508Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-e4acd-ess-for-MaMa-GeDaRa-YaNaVa--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-e4acd-ess-for-MaMa-GeDaRa-YaNaVa--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-acc003dabc1ed9ee5888",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0002 - Test robustness for: \"mama gedhara yanavaaa\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 9139,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යනවා\u001b[7mඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යනවා\u001b[7mඅ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යනවා\u001b[7mඅ\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0002\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mama gedhara yanavaaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මම ගෙදර යනවාඅ\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "  - Actual: මම ගෙදර යනවාඅ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:15.502Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-8b230--for-mama-gedhara-yanavaaa--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-8b230--for-mama-gedhara-yanavaaa--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-17ff4a2bc15652a647d8",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0003 - Test robustness for: \"www.sliit.lk\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 9092,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.\u001b[7msliit.lk\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.\u001b[7mස්ලීට්.ල්ක්\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.\u001b[7msliit.lk\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.\u001b[7mස්ලීට්.ල්ක්\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.\u001b[7msliit.lk\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.\u001b[7mස්ලීට්.ල්ක්\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0003\n"
+                        },
+                        {
+                          "text": "Input (Problematic): www.sliit.lk\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): www.sliit.lk\n"
+                        },
+                        {
+                          "text": "Actual Output (System): www.ස්ලීට්.ල්ක්\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: www.sliit.lk\n"
+                        },
+                        {
+                          "text": "  - Actual: www.ස්ලීට්.ල්ක්\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:15.582Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-398ff-obustness-for-www-sliit-lk--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-398ff-obustness-for-www-sliit-lk--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-59d9abe276c4d4409fa0",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0004 - Test robustness for: \"mma gedhara yanava\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 9125,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"ම\u001b[7m්\u001b[27mම ගෙදර යනව\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"ම\u001b[7m්\u001b[27mම ගෙදර යනව\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යනව\u001b[7mා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"ම\u001b[7m්\u001b[27mම ගෙදර යනව\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0004\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mma gedhara yanava\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): ම්ම ගෙදර යනව\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "  - Actual: ම්ම ගෙදර යනව\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:15.509Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-0c2cd-ess-for-mma-gedhara-yanava--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-0c2cd-ess-for-mma-gedhara-yanava--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-dcfcf3109daec9aa37d4",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0005 - Test robustness for: \"mama gedhara yanawa\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 7651,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mවා\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0005\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mama gedhara yanawa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මම ගෙදර යනwඅ\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "  - Actual: මම ගෙදර යනwඅ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:28.508Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-e8fc4-ss-for-mama-gedhara-yanawa--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-e8fc4-ss-for-mama-gedhara-yanawa--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-61c288f0e68124e37e42",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0006 - Test robustness for: \"mama gedhara yanavaa,oyaa enavadha\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 3027,
+                      "error": {
+                        "message": "Error: locator.fill: value: expected string, got object",
+                        "stack": "Error: locator.fill: value: expected string, got object\n    at TranslatorPage.typeInput (C:\\Users\\ASUS\\Desktop\\IT23243026\\pages\\translator.page.ts:90:38)\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:88:7",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\pages\\translator.page.ts",
+                          "column": 38,
+                          "line": 90
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\translator.page.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \n \u001b[90m 89 |\u001b[39m     \u001b[90m// Step 2: Type the Singlish text with slight delay for real-time conversion\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msinglishInputTextarea\u001b[33m.\u001b[39mfill(text)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m     \n \u001b[90m 92 |\u001b[39m     \u001b[90m// Step 3: Wait for real-time conversion to process\u001b[39m\n \u001b[90m 93 |\u001b[39m     \u001b[90m// The system converts text automatically without clicking any button\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\pages\\translator.page.ts",
+                            "column": 38,
+                            "line": 90
+                          },
+                          "message": "Error: locator.fill: value: expected string, got object\n\n\u001b[90m   at \u001b[39m..\\pages\\translator.page.ts:90\n\n\u001b[0m \u001b[90m 88 |\u001b[39m     \n \u001b[90m 89 |\u001b[39m     \u001b[90m// Step 2: Type the Singlish text with slight delay for real-time conversion\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 90 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msinglishInputTextarea\u001b[33m.\u001b[39mfill(text)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 91 |\u001b[39m     \n \u001b[90m 92 |\u001b[39m     \u001b[90m// Step 3: Wait for real-time conversion to process\u001b[39m\n \u001b[90m 93 |\u001b[39m     \u001b[90m// The system converts text automatically without clicking any button\u001b[39m\u001b[0m\n\u001b[2m    at TranslatorPage.typeInput (C:\\Users\\ASUS\\Desktop\\IT23243026\\pages\\translator.page.ts:90:38)\u001b[22m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:88:7\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:28.415Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-d4fee-hara-yanavaa-oyaa-enavadha--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-d4fee-hara-yanavaa-oyaa-enavadha--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\pages\\translator.page.ts",
+                        "column": 38,
+                        "line": 90
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-6887fb921ced721670ff",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0007 - Test robustness for: \"mata id eka amathaka velaa\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7768,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට \u001b[7mid\u001b[27m එක අමතක වෙලා\"\u001b[39m\nReceived: \u001b[31m\"මට \u001b[7mඉඩ්\u001b[27m එක අමතක වෙලා\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට \u001b[7mid\u001b[27m එක අමතක වෙලා\"\u001b[39m\nReceived: \u001b[31m\"මට \u001b[7mඉඩ්\u001b[27m එක අමතක වෙලා\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට \u001b[7mid\u001b[27m එක අමතක වෙලා\"\u001b[39m\nReceived: \u001b[31m\"මට \u001b[7mඉඩ්\u001b[27m එක අමතක වෙලා\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0007\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mata id eka amathaka velaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මට id එක අමතක වෙලා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මට ඉඩ් එක අමතක වෙලා\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: මට id එක අමතක වෙලා\n"
+                        },
+                        {
+                          "text": "  - Actual: මට ඉඩ් එක අමතක වෙලා\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:28.416Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-29c74-mata-id-eka-amathaka-velaa--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-29c74-mata-id-eka-amathaka-velaa--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-0cee36ee34c8a0d02ab6",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0008 - Test robustness for: \"aiya api gedhara yamuda\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 7709,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅයියා\u001b[27m අපි ගෙදර යමු\u001b[7mද\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mඓය\u001b[27m අපි ගෙදර යමු\u001b[7mඩ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅයියා\u001b[27m අපි ගෙදර යමු\u001b[7mද\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mඓය\u001b[27m අපි ගෙදර යමු\u001b[7mඩ\u001b[27m\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅයියා\u001b[27m අපි ගෙදර යමු\u001b[7mද\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mඓය\u001b[27m අපි ගෙදර යමු\u001b[7mඩ\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0008\n"
+                        },
+                        {
+                          "text": "Input (Problematic): aiya api gedhara yamuda\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): අයියා අපි ගෙදර යමුද\n"
+                        },
+                        {
+                          "text": "Actual Output (System): ඓය අපි ගෙදර යමුඩ\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: අයියා අපි ගෙදර යමුද\n"
+                        },
+                        {
+                          "text": "  - Actual: ඓය අපි ගෙදර යමුඩ\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:28.612Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-b3483-or-aiya-api-gedhara-yamuda--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-b3483-or-aiya-api-gedhara-yamuda--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-a9bf92f25dbec962bf55",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0009 - Test robustness for: \"api 2 denek gedhara yanavaa\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 8143,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි \u001b[7mදෙන්නා\u001b[27m ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි \u001b[7m2 ඩෙනෙක්\u001b[27m ගෙදර යනවා\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි \u001b[7mදෙන්නා\u001b[27m ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි \u001b[7m2 ඩෙනෙක්\u001b[27m ගෙදර යනවා\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි \u001b[7mදෙන්නා\u001b[27m ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි \u001b[7m2 ඩෙනෙක්\u001b[27m ගෙදර යනවා\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0009\n"
+                        },
+                        {
+                          "text": "Input (Problematic): api 2 denek gedhara yanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): අපි දෙන්නා ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): අපි 2 ඩෙනෙක් ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: අපි දෙන්නා ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "  - Actual: අපි 2 ඩෙනෙක් ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:34.095Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-08126-pi-2-denek-gedhara-yanavaa--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-08126-pi-2-denek-gedhara-yanavaa--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-f6b429840503e2374311",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0010 - Test robustness for: \"mamagedharayanavaa\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 7664,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m\n    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30",
+                        "location": {
+                          "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                          "column": 30,
+                          "line": 132
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                            "column": 30,
+                            "line": 132
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m\n\n\u001b[0m \u001b[90m 130 |\u001b[39m         \n \u001b[90m 131 |\u001b[39m         \u001b[90m// Step 10: Fail the test\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 132 |\u001b[39m         expect(actualOutput)\u001b[33m.\u001b[39mtoBe(testCase\u001b[33m.\u001b[39mexpectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 133 |\u001b[39m       }\n \u001b[90m 134 |\u001b[39m       \n \u001b[90m 135 |\u001b[39m       \u001b[90m// ====================================\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts:132:30\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Neg_Fun_0010\n"
+                        },
+                        {
+                          "text": "Input (Problematic): mamagedharayanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Ideal): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (System): මමගෙදරයනවා\n"
+                        },
+                        {
+                          "text": "Status: ❌ FAIL (Output mismatch)\n"
+                        },
+                        {
+                          "text": "Issue Type: System behavior differs from expected\n"
+                        },
+                        {
+                          "text": "Mismatch Details:\n"
+                        },
+                        {
+                          "text": "  - Expected: මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "  - Actual: මමගෙදරයනවා\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:39.740Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-01e14-ess-for-mamagedharayanavaa--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ASUS\\Desktop\\IT23243026\\screenshots\\IT23243026-negative-functi-01e14-ess-for-mamagedharayanavaa--chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ASUS\\Desktop\\IT23243026\\tests\\IT23243026-negative-functional.spec.ts",
+                        "column": 30,
+                        "line": 132
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c98b798d62dc0b404c4-5b227039ecd770053306",
+              "file": "IT23243026-negative-functional.spec.ts",
+              "line": 77,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IT23243026-positive-functional.spec.ts",
+      "file": "IT23243026-positive-functional.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Positive Functional Tests - Singlish to Sinhala Transliteration",
+          "file": "IT23243026-positive-functional.spec.ts",
+          "line": 53,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_Fun_0001 - Verify transliteration for: \"mama gedhara yanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7566,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0001\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama gedhara yanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:39.665Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-39c0f3473cfe37793d64",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0002 - Verify transliteration for: \"mata bath oonee\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7146,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0002\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mata bath oonee\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මට බත් ඕනේ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මට බත් ඕනේ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:40.026Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-3868c6d4a1835591b76d",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0003 - Verify transliteration for: \"api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6991,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0003\n"
+                        },
+                        {
+                          "text": "Input (Singlish): api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:44.906Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-ec6a5737f2b2530959b5",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0004 - Verify transliteration for: \"oyaa enavaanam mama balan innavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7193,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0004\n"
+                        },
+                        {
+                          "text": "Input (Singlish): oyaa enavaanam mama balan innavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): ඔයා එනවානම් මම බලන් ඉන්නවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): ඔයා එනවානම් මම බලන් ඉන්නවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:47.471Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-1d9516318692219c0ed2",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0005 - Verify transliteration for: \"oyaata kohomadha?\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7172,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0005\n"
+                        },
+                        {
+                          "text": "Input (Singlish): oyaata kohomadha?\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): ඔයාට කොහොමද?\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): ඔයාට කොහොමද?\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:47.492Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-b2ca0d1daa5a08f6242d",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0006 - Verify transliteration for: \"vahaama enna\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7064,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0006\n"
+                        },
+                        {
+                          "text": "Input (Singlish): vahaama enna\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): වහාම එන්න\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): වහාම එන්න\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:50.352Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-593a37dac3424c7de547",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0007 - Verify transliteration for: \"mama ehema karannee naehae\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6892,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0007\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama ehema karannee naehae\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම එහෙම කරන්නේ නැහැ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම එහෙම කරන්නේ නැහැ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:52.083Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-ee224b3fe0b9cd51f5dd",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0008 - Verify transliteration for: \"aayuboovan!\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7163,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0008\n"
+                        },
+                        {
+                          "text": "Input (Singlish): aayuboovan!\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): ආයුබෝවන්!\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): ආයුබෝවන්!\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:54.707Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-dc155f38d951d5dfeb4e",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0009 - Verify transliteration for: \"karuNaakaralaa mata podi udhavvak karanna puLuvandha?\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7154,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0009\n"
+                        },
+                        {
+                          "text": "Input (Singlish): karuNaakaralaa mata podi udhavvak karanna puLuvandha?\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:54.711Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-63cb50cf946da74ca3ab",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0010 - Verify transliteration for: \"ehema karapan\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7290,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0010\n"
+                        },
+                        {
+                          "text": "Input (Singlish): ehema karapan\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): එහෙම කරපන්\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): එහෙම කරපන්\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:57.588Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-d12b7df8a3284a2f1ef1",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0011 - Verify transliteration for: \"mama dhaen vaeda karanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6915,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0011\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama dhaen vaeda karanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම දැන් වැඩ කරනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම දැන් වැඩ කරනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:35:59.008Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-9016e53136b208625ca4",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0012 - Verify transliteration for: \"mama iiyee gedhara giyaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6942,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0012\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama iiyee gedhara giyaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම ඊයේ ගෙදර ගියා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම ඊයේ ගෙදර ගියා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:01.902Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-e51a08b86806f98fd005",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0013 - Verify transliteration for: \"mama heta enavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7058,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0013\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama heta enavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම හෙට එනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම හෙට එනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:01.913Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-ddf53e059efa21c8e537",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0014 - Verify transliteration for: \"api yamu\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6894,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0014\n"
+                        },
+                        {
+                          "text": "Input (Singlish): api yamu\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): අපි යමු\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): අපි යමු\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:04.907Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-c6bacd5af4dfc7f25dfa",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0015 - Verify transliteration for: \"hari hari\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6948,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0015\n"
+                        },
+                        {
+                          "text": "Input (Singlish): hari hari\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): හරි හරි\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): හරි හරි\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:05.957Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-e5d70efb4285ef9d49d8",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0016 - Verify transliteration for: \"piti 10 kg genna\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7339,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0016\n"
+                        },
+                        {
+                          "text": "Input (Singlish): piti 10 kg genna\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): පිටි 10 kg ගෙන්න\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): පිටි 10 kg ගෙන්න\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:08.874Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-c23bf2d5f5f4ce0e0769",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0017 - Verify transliteration for: \"Zoom meeting ekak thiyennee\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7254,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0017\n"
+                        },
+                        {
+                          "text": "Input (Singlish): Zoom meeting ekak thiyennee\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): Zoom meeting එකක් තියෙන්නේ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): Zoom meeting එකක් තියෙන්නේ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:09.009Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-b8d654bd92831bece39e",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0018 - Verify transliteration for: \"api trip eka Kandy valata yamudha\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6953,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0018\n"
+                        },
+                        {
+                          "text": "Input (Singlish): api trip eka Kandy valata yamudha\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): අපි trip එක Kandy වලට යමුද\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): අපි trip එක Kandy වලට යමුද\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:11.836Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-a7c4f2fc375c7a1ba184",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0019 - Verify transliteration for: \"magee NIC eka ganna\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6914,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0019\n"
+                        },
+                        {
+                          "text": "Input (Singlish): magee NIC eka ganna\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මගේ NIC එක ගන්න\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මගේ NIC එක ගන්න\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:12.936Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-b1a8e21e8f2895affd42",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0020 - Verify transliteration for: \"Rs. 5343\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7105,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0020\n"
+                        },
+                        {
+                          "text": "Input (Singlish): Rs. 5343\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): Rs. 5343\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): Rs. 5343\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:16.240Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-f6ce8daa4158691f1b97",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0021 - Verify transliteration for: \"25/12/2025\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7039,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0021\n"
+                        },
+                        {
+                          "text": "Input (Singlish): 25/12/2025\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): 25/12/2025\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): 25/12/2025\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:16.301Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-2a08f0e279260fd15dca",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0022 - Verify transliteration for: \"mata   raeeta kanna bath   oonee\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7055,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0022\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mata   raeeta kanna bath   oonee\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මට   රෑට කන්න බත්   ඕනේ\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මට   රෑට කන්න බත්   ඕනේ\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:18.820Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-2cc7b6c4272bdfc2c7cd",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0023 - Verify transliteration for: \"ela machan! Supiri !!\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 6888,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0023\n"
+                        },
+                        {
+                          "text": "Input (Singlish): ela machan! Supiri !!\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): එල මචන්! සුපිරි !!\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): එල මචන්! සුපිරි !!\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:19.873Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-e1ef7de5a86b13ce8a09",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0024 - Verify transliteration for: \"dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva \naethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYA bimal rathnaayaka \nsaDHahan kaLeeya.\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6905,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "Test Case ID: Pos_Fun_0024\n"
+                        },
+                        {
+                          "text": "Input (Singlish): dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva \naethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYA bimal rathnaayaka \nsaDHahan kaLeeya.\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව \nඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක \nසඳහන් කළේය.\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව \nඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක \nසඳහන් කළේය.\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:23.381Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "671d28fc5b5f9b4f933c-f9f93ed4f8225d24a54c",
+              "file": "IT23243026-positive-functional.spec.ts",
+              "line": 68,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IT23243026-ui.spec.ts",
+      "file": "IT23243026-ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "UI Behavior Tests - Real-time Conversion & Usability",
+          "file": "IT23243026-ui.spec.ts",
+          "line": 54,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_UI_0001 - Verify real-time conversion for: \"mama gedhara yanavaa\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8713,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n========================================\n"
+                        },
+                        {
+                          "text": "UI Test Case ID: Pos_UI_0001\n"
+                        },
+                        {
+                          "text": "Input (Singlish): mama gedhara yanavaa\n"
+                        },
+                        {
+                          "text": "Expected Output (Sinhala): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Actual Output (Sinhala): මම ගෙදර යනවා\n"
+                        },
+                        {
+                          "text": "Status: ✅ PASS\n"
+                        },
+                        {
+                          "text": "Real-time conversion working correctly!\n"
+                        },
+                        {
+                          "text": "========================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T16:36:23.396Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "881e8e08b8e32e3b7a4c-4d2c57fffb0a9596a5f0",
+              "file": "IT23243026-ui.spec.ts",
+              "line": 69,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-30T16:35:12.758Z",
+    "duration": 79470.667,
+    "expected": 25,
+    "skipped": 0,
+    "unexpected": 10,
+    "flaky": 0
+  }
+}

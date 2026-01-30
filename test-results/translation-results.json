@@ -1,0 +1,311 @@
+{
+  "timestamp": "2026-01-29T17:47:14.176Z",
+  "summary": {
+    "positive": {
+      "total": 24,
+      "matches": 24,
+      "mismatches": 0,
+      "accuracy": "100.00%"
+    },
+    "negative": {
+      "total": 10,
+      "matches": 10,
+      "mismatches": 0,
+      "accuracy": "100.00%"
+    },
+    "ui": {
+      "total": 1,
+      "matches": 1,
+      "mismatches": 0,
+      "accuracy": "100.00%"
+    },
+    "overall": {
+      "total": 35,
+      "matches": 35,
+      "mismatches": 0,
+      "accuracy": "100.00%"
+    }
+  },
+  "detailedResults": [
+    {
+      "tcId": "Pos_Fun_0001",
+      "type": "positive",
+      "input": "mama gedhara yanavaa",
+      "expectedOutput": "මම ගෙදර යනවා",
+      "actualOutput": "මම ගෙදර යනවා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0002",
+      "type": "positive",
+      "input": "mata bath oonee",
+      "expectedOutput": "මට බත් ඕනේ",
+      "actualOutput": "මට බත් ඕනේ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0003",
+      "type": "positive",
+      "input": "api kaeema kanna yanavaa saha passe chithrapatayakuth balanavaa",
+      "expectedOutput": "අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා",
+      "actualOutput": "අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයකුත් බලනවා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0004",
+      "type": "positive",
+      "input": "oya enavaanam mama balan innavaa",
+      "expectedOutput": "ඔය එනවානම් මම බලන් ඉන්නවා",
+      "actualOutput": "ඔය එනවානම් මම බලන් ඉන්නවා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0005",
+      "type": "positive",
+      "input": "oyaata kohomadha?",
+      "expectedOutput": "ඔයාට කොහොමද?",
+      "actualOutput": "ඔයාට කොහොමද?",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0006",
+      "type": "positive",
+      "input": "vahaama enna",
+      "expectedOutput": "වහාම එන්න",
+      "actualOutput": "වහාම එන්න",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0007",
+      "type": "positive",
+      "input": "mama ehema karannee naehae",
+      "expectedOutput": "මම එහෙම කරන්නේ නැහැ",
+      "actualOutput": "මම එහෙම කරන්නේ නැහැ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0008",
+      "type": "positive",
+      "input": "aayuboovan!",
+      "expectedOutput": "ආයුබෝවන්!",
+      "actualOutput": "ආයුබෝවන්!",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0009",
+      "type": "positive",
+      "input": "karuNaakaralaa mata podi udhavvak karanna puLuvandha?",
+      "expectedOutput": "කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?",
+      "actualOutput": "කරුණාකරලා මට පොඩි උදව්වක් කරන්න පුළුවන්ද?",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0010",
+      "type": "positive",
+      "input": "ehema karapan",
+      "expectedOutput": "එහෙම කරපන්",
+      "actualOutput": "එහෙම කරපන්",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0011",
+      "type": "positive",
+      "input": "mama dhaen vaeda karanavaa",
+      "expectedOutput": "මම දැන් වැඩ කරනවා",
+      "actualOutput": "මම දැන් වැඩ කරනවා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0012",
+      "type": "positive",
+      "input": "mama iiyee gedhara giyaa",
+      "expectedOutput": "මම ඊයේ ගෙදර ගියා",
+      "actualOutput": "මම ඊයේ ගෙදර ගියා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0013",
+      "type": "positive",
+      "input": "mama heta enavaa",
+      "expectedOutput": "මම හෙට එනවා",
+      "actualOutput": "මම හෙට එනවා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0014",
+      "type": "positive",
+      "input": "api yamu",
+      "expectedOutput": "අපි යමු",
+      "actualOutput": "අපි යමු",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0015",
+      "type": "positive",
+      "input": "hari hari",
+      "expectedOutput": "හරි හරි",
+      "actualOutput": "හරි හරි",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0016",
+      "type": "positive",
+      "input": "piti 10 kg genna",
+      "expectedOutput": "පිටි 10 kg ගෙන්න",
+      "actualOutput": "පිටි 10 kg ගෙන්න",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0017",
+      "type": "positive",
+      "input": "Zoom meeting ekak thiyennee",
+      "expectedOutput": "Zoom meeting එකක් තියෙන්නේ",
+      "actualOutput": "Zoom meeting එකක් තියෙන්නේ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0018",
+      "type": "positive",
+      "input": "api trip eka Kandy valata yamudha",
+      "expectedOutput": "අපි trip එක Kandy වලට යමුද",
+      "actualOutput": "අපි trip එක Kandy වලට යමුද",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0019",
+      "type": "positive",
+      "input": "magee NIC eka ganna",
+      "expectedOutput": "මගේ NIC එක ගන්න",
+      "actualOutput": "මගේ NIC එක ගන්න",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0020",
+      "type": "positive",
+      "input": "Rs. 5343",
+      "expectedOutput": "Rs. 5343",
+      "actualOutput": "Rs. 5343",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0021",
+      "type": "positive",
+      "input": "25/12/2025",
+      "expectedOutput": "25/12/2025",
+      "actualOutput": "25/12/2025",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0022",
+      "type": "positive",
+      "input": "mata   raeeta kanna bath   oonee",
+      "expectedOutput": "මට   රෑට කන්න බත්   ඕනේ",
+      "actualOutput": "මට   රෑට කන්න බත්   ඕනේ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0023",
+      "type": "positive",
+      "input": "ela machan! Supiri !!",
+      "expectedOutput": "එල මචන්! සුපිරි !!",
+      "actualOutput": "එල මචන්! සුපිරි !!",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_Fun_0024",
+      "type": "positive",
+      "input": "dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu maarga kotas 430k vinaashayata pathva \naethi athara, ehi samastha dhiga pramaaNaya kiloomiitar 300k pamaNa vana bava pravaahana,mahaamaarga saha naagarika sQQvarDhana amaathYa bimal rathnaayaka \nsaDHahan kaLeeya.",
+      "expectedOutput": "දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව \nඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක \nසඳහන් කළේය.",
+      "actualOutput": "දිට්වා සුළි කුණාටුව සමඟ ඇති වූ ගංවතුර සහ නායයෑම් හේතුවෙන් මාර්ග සංවර්ධන අධිකාරිය සතු මාර්ග කොටස් 430ක් විනාශයට පත්ව \nඇති අතර, එහි සමස්ත දිග ප්‍රමාණය කිලෝමීටර් 300ක් පමණ වන බව ප්‍රවාහන,මහාමාර්ග සහ නාගරික සංවර්ධන අමාත්‍ය බිමල් රත්නායක \nසඳහන් කළේය.",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0001",
+      "type": "negative",
+      "input": "MaMa GeDaRa YaNaVa",
+      "expectedOutput": "මම ඟෙඪRඅ YඅණVඅ",
+      "actualOutput": "මම ඟෙඪRඅ YඅණVඅ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0002",
+      "type": "negative",
+      "input": "mama gedhara yanavaaa",
+      "expectedOutput": "මම ගෙදර යනවාඅ",
+      "actualOutput": "මම ගෙදර යනවාඅ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0003",
+      "type": "negative",
+      "input": "www.sliit.lk",
+      "expectedOutput": "www.ස්ලීට්.ල්ක්",
+      "actualOutput": "www.ස්ලීට්.ල්ක්",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0004",
+      "type": "negative",
+      "input": "mama gedhara yanawa",
+      "expectedOutput": "මම ගෙදර යනwඅ",
+      "actualOutput": "මම ගෙදර යනwඅ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0005",
+      "type": "negative",
+      "input": "mma gedhara yanava",
+      "expectedOutput": "ම්ම ගෙදර යනව",
+      "actualOutput": "ම්ම ගෙදර යනව",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0006",
+      "type": "negative",
+      "input": "mama gedhara yanavaa \n oyaa enavadha",
+      "expectedOutput": "මම ගෙදර යනවා \n ඔයා එනවද",
+      "actualOutput": "මම ගෙදර යනවා \n ඔයා එනවද",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0007",
+      "type": "negative",
+      "input": "mata id eka amathaka velaa",
+      "expectedOutput": "මට ඉඩ් එක අමතක වෙලා",
+      "actualOutput": "මට ඉඩ් එක අමතක වෙලා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0008",
+      "type": "negative",
+      "input": "aiya api gedhara yamuda",
+      "expectedOutput": "ඓය අපි ගෙදර යමුඩ",
+      "actualOutput": "ඓය අපි ගෙදර යමුඩ",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0009",
+      "type": "negative",
+      "input": "api 2 denek gedhara yanavaa",
+      "expectedOutput": "අපි 2 ඩෙනෙක් ගෙදර යනවා",
+      "actualOutput": "අපි 2 ඩෙනෙක් ගෙදර යනවා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Neg_Fun_0010",
+      "type": "negative",
+      "input": "mamagedharayanavaa",
+      "expectedOutput": "මමගෙදරයනවා",
+      "actualOutput": "මමගෙදරයනවා",
+      "isMatch": true
+    },
+    {
+      "tcId": "Pos_UI_0001",
+      "type": "ui",
+      "input": "mama gedhara yanavaa",
+      "expectedOutput": "මම ගෙදර යනවා",
+      "actualOutput": "මම ගෙදර යනවා",
+      "isMatch": true
+    }
+  ]
+}
