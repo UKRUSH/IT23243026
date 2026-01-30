@@ -1,0 +1,39 @@
+{
+  "name": "swifttranslator-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation testing for SwiftTranslator (Singlish to Sinhala) - University Assignment IT3040 ITPM Semester 1",
+  "author": "IT23243026",
+  "license": "ISC",
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "testing",
+    "swifttranslator",
+    "singlish",
+    "sinhala",
+    "university-assignment"
+  ],
+  "scripts": {
+    "test": "playwright test",
+    "test:positive": "playwright test positive-functional.spec.ts",
+    "test:negative": "playwright test negative-functional.spec.ts",
+    "test:ui": "playwright test ui.spec.ts",
+    "test:headed": "playwright test --headed",
+    "test:ui-mode": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
